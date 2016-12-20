@@ -20,7 +20,7 @@ pid = /app/vendor/stunnel/stunnel4.pid
 
 cert = /app/vendor/stunnel/stunnel.crt
 key = /app/vendor/stunnel/stunnel.key
-cafile = app/vendor/stunnel/stunnel_ca.crt
+cafile = /app/vendor/stunnel/stunnel_ca.crt
 verify = 2
 delay = yes
 options = NO_SSLv2

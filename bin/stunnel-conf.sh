@@ -23,6 +23,14 @@ key = /app/vendor/stunnel/stunnel.key
 cafile = /app/vendor/stunnel/stunnel_ca.crt
 verify = 2
 delay = yes
+
+options = NO_SSLv2
+options = SINGLE_ECDH_USE
+options = SINGLE_DH_USE
+socket = r:TCP_NODELAY=1
+options = NO_SSLv3
+${STUNNEL_FORCE_SSL_VERSION}
+ciphers = HIGH:!ADH:!AECDH:!LOW:!EXP:!MD5:!3DES:!SRP:!PSK:@STRENGTH
 EOFEOF
 
 for URL in $URLS

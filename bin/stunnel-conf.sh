@@ -23,6 +23,7 @@ key = /app/vendor/stunnel/stunnel.key
 cafile = /app/vendor/stunnel/stunnel_ca.crt
 verify = 2
 delay = yes
+sslVersion = all
 
 options = NO_SSLv2
 options = SINGLE_ECDH_USE

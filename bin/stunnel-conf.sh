@@ -24,7 +24,7 @@ cafile = /app/vendor/stunnel/stunnel_ca.crt
 verify = 2
 delay = yes
 
-options = NO_SSLv2
+options = NO_SSLv3
 options = SINGLE_ECDH_USE
 options = SINGLE_DH_USE
 socket = r:TCP_NODELAY=1
